@@ -1,3 +1,6 @@
+""" we don’t have to include is_alive() in the subclasses.
+This is because subclasses automatically get access to
+the methods in the superclass. """
 class Enemy:
     def __init_(self, name, hp, damage):
         self.name = name
